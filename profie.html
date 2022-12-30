@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electra store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,700;1,700&display=swap" rel="stylesheet">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/profile/style.css">
+  <link rel="stylesheet" href="css/profile/img/">
+  <link rel="stylesheet" href="img/">
+  <link rel="stylesheet" href="index.js">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Electra store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Catalog
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="pc.html">PC</a></li>
+              <li><a class="dropdown-item" href="laptop.html">Laptop</a></li>
+              <li><a class="dropdown-item" href="smartphone.html">Smartphone</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Other categories</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">FAQ</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-person-plus"></i></a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
+            <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+          </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="cabinet.html"><i class="bi bi-person-circle"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="cart.html"><i class="bi bi-cart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-search"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="container rounded bg-white mt-5 mb-5">
+  <div class="row">
+      <div class="col-md-3 border-right">
+          <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" 
+            src="css/profile/img/photo_2022-09-17_08-45-41.jpg">
+            <span class="font-weight-bold">Danylo</span><span class="text-black-50">dmikitas1@gmail.com
+            </span><span> </span></div>
+      </div>
+      <div class="col-md-5 border-right">
+          <div class="p-3 py-5">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4 class="text-right">Profile</h4>
+              </div>
+              <div class="row mt-2">
+                  <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="first name" value=""></div>
+                  <div class="col-md-6"><label class="labels">Surname</label><input type="text" class="form-control" value="" placeholder="surname"></div>
+              </div>
+              <div class="row mt-3">
+                  <div class="col-md-12"><label class="labels">Mobile Number</label><input type="text" class="form-control" placeholder="enter phone number" value=""></div>
+                  <div class="col-md-12"><label class="labels">Address Line 1</label><input type="text" class="form-control" placeholder="enter address line 1" value=""></div>
+                  <div class="col-md-12"><label class="labels">Address Line 2</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
+                  <div class="col-md-12"><label class="labels">Postcode</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
+                  <div class="col-md-12"><label class="labels">State</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
+                  <div class="col-md-12"><label class="labels">Area</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
+                  <div class="col-md-12"><label class="labels">Email ID</label><input type="text" class="form-control" placeholder="enter email id" value=""></div>
+                  <div class="col-md-12"><label class="labels">Education</label><input type="text" class="form-control" placeholder="education" value=""></div>
+              </div>
+              <div class="row mt-3">
+                  <div class="col-md-6"><label class="labels">Country</label><input type="text" class="form-control" placeholder="country" value=""></div>
+                  <div class="col-md-6"><label class="labels">State/Region</label><input type="text" class="form-control" value="" placeholder="state"></div>
+              </div>
+              <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button></div>
+          </div>
+      </div>
+      
+  </div>
+</div>
+</div>
+</div>
+<footer id="footer">
+  <div class="footer-top">
+   <div class="container">
+     <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <ul> 
+        <h4>Electra store</h4>
+        <h4>Best store in Ukraine</h4>
+       </ul> 
+      </div> 
+       <div class="col-lg-3 col-md-6 footer-links"> <h4>Useful Links</h4>
+        <ul> 
+        <li><i class="bx bx-chevron-right"></i>
+        <a href="#">Home</a></li> <li><i class="bx bx-chevron-right"></i>
+        <a href="#">About us</a></li> <li><i class="bx bx-chevron-right"></i>
+        <a href="#">Services</a></li> <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> </ul> 
+      </div> 
+    <div class="col-lg-3 col-md-6 footer-links"> <h4>Partner magazine</h4>
+    <ul> 
+      <li><i class="bx bx-chevron-right"></i>
+        <a href="#">Rozetka</a></li> <li><i class="bx bx-chevron-right"></i>
+          <a href="#">Eldorado</a></li> <li><i class="bx bx-chevron-right"></i>
+            <a href="#">Foxtrot</a></li> <li><i class="bx bx-chevron-right"></i>
+              <a href="#">Comfy</a></li> <li><i class="bx bx-chevron-right"></i>
+                <a href="#">Allo</a></li> </ul> 
+                </div> 
+                <div class="col-lg-3 col-md-6 footer-contact"> <h4>Contact Us</h4> <p> 101 Kherson Street <br> Kherson, 78009<br> Ukraine <br><br> <strong>Phone:</strong>+380501234567<br>
+                   <strong>Email:</strong> dmikitas1@gmail.com<br> </p> 
+                </div>
+                <div class="col-lg-3 col-md-6 footer-info"> <h3>About Electra Store</h3>
+                     <p>We sell PCs, smartphones and personal computers. The quality of the goods corresponds to all international goods. The store is regulated by Ukraine.</p>
+                </div>
+              </div>
+             </div>
+             </div>
+</footer>
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+   crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="index.js"></script>
+</body>
+</html>
