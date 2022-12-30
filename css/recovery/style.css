@@ -1,0 +1,77 @@
+body {
+  background-position: center;
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #505050;
+  font-family: "Rubik",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-transform: none;
+}
+
+.forgot{
+    background-color: #fff;
+  padding: 12px;
+  border: 1px solid #dfdfdf;
+}
+
+.padding-bottom-3x {
+  padding-bottom: 72px !important;
+}
+
+.card-footer{
+background-color: #fff;
+}
+
+.btn{ 
+
+font-size: 13px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #76b7e9;
+  outline: 0;
+  box-shadow: 0 0 0 0px #28a745;
+}
+             
+             
+             
+#footer
+{background: #404040;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+  min-height:100%}#footer 
+  .footer-top{
+    background: #3b3b3b;
+    border-top: 1px solid #474747;
+    border-bottom: 1px solid #474747;
+    padding: 60px 0 30px 0;
+    min-height:100%}#footer
+.footer-top .footer-info{
+  margin-bottom: 30px}#footer
+.footer-top .footer-info h3{
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700}#footer
+.footer-top .footer-info p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff}#footer
+.footer-top h4{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px}#footer
+.footer-top .footer-contact p{
+  line-height: 26px}

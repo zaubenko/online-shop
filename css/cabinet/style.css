@@ -1,0 +1,143 @@
+body{
+  background-image: url(img/background.jpg);
+}
+
+#sidebar {
+    padding: 15px 0px 15px 0px;
+    border-radius: 10px;
+}
+
+#sidebar .h4 {
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+#sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0rem;
+}
+
+#sidebar ul li {
+    padding: 10px 0;
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: 5px solid transparent;
+}
+
+
+#sidebar ul li a {
+    display: block;
+}
+
+#sidebar ul li a .fas,
+#sidebar ul li a .far {
+    color: #ddd;
+}
+
+#sidebar ul li a .link {
+    color: #fff;
+    font-weight: 500;
+}
+
+#sidebar ul li a .link-desc {
+    font-size: 0.8rem;
+    color: #ddd;
+}
+
+#main-content {
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#main-content .h5,
+#main-content .text-uppercase {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#main-content .h5+div {
+    font-size: 0.9rem;
+}
+
+#main-content .box {
+    padding: 10px;
+    border-radius: 6px;
+    width: 170px;
+    height: 90px;
+}
+
+#main-content .box img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+#main-content .box .tag {
+    font-size: 0.9rem;
+    color: #000;
+    font-weight: 500;
+}
+
+#main-content .box .number {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.order {
+    padding: 10px 30px;
+    min-height: 150px;
+}
+
+.order .order-summary {
+    height: 100%;
+}
+
+.order .rating img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.order .status {
+    font-weight: 600;
+}
+
+
+
+#footer
+{background: #404040;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+  min-height:100%}#footer 
+  .footer-top{
+    background: #3b3b3b;
+    border-top: 1px solid #474747;
+    border-bottom: 1px solid #474747;
+    padding: 60px 0 30px 0;
+    min-height:100%}#footer
+.footer-top .footer-info{
+  margin-bottom: 30px}#footer
+.footer-top .footer-info h3{
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700}#footer
+.footer-top .footer-info p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff}#footer
+.footer-top h4{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px}#footer
+.footer-top .footer-contact p{
+  line-height: 26px}
